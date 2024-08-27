@@ -1,6 +1,5 @@
 /*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
+* Author        : "Lillian"
 * Version       : 1.0
 ==================================== */
 
@@ -124,6 +123,7 @@ nav.navbar.bootsnav {
     font-weight: 600;
     padding: 33px 0px 57px;
     text-transform: uppercase;
+ 
 }
 /*.navbar-brand*/
 
@@ -191,10 +191,27 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     justify-content: center;
     position:relative;
     background:url(../images/about/welcome_Banner.png)no-repeat;
-    background-size:cover;
+    background-size:cover; */
     background-position: center;
     height:890px;
+    overflow: hidden; 
 }
+
+/* #welcome-hero #background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; /* 将视频放在背景
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+} */
+
 .welcome-hero:before{
     position:absolute;
     content: " ";
@@ -397,6 +414,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: uppercase;
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
+    
 }
 .single-progress-txt {
     display: flex;
@@ -708,8 +726,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact {
     background: #f9fbfd;
     padding: 50px 0 100px;
+    
 }
-.single-contact-box {padding-top: 100px;}
+.single-contact-box {
+    padding-top: 100px;
+
+}
 .contact-form  .form-group {
     margin-bottom: 20px;
     
@@ -799,7 +821,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 /*hm-foot-icon*/
 .hm-foot-icon {
-   
+    background:url(../images/about/welcome_Banner.png)no-repeat;
 }
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
@@ -819,8 +841,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color: #888ea5;
     text-transform: capitalize;
     padding: 38px 0;
+    
 }
 .hm-footer-copyright p a {color: #888ea5;}
+
+.addColor {
+
+}
 /*===============================
     Scroll Top
 ===============================*/
